@@ -2,6 +2,8 @@ body{
     font-family: sans-serif;
     background-color: #F7F8FC;
     width: 1140px;
+    margin:0 auto;
+   
 
 }
 header{
@@ -43,7 +45,7 @@ header{
 
 .banner-section{
     text-align: center;
-    font-size:25px; 
+    font-size:35px; 
     margin-top: 200px; 
 }
 .action-section{
@@ -62,4 +64,33 @@ header{
 }
 .action-section-text{
     margin-left:  50px; 
+    font-size: 30px;
+}
+
+.productive-users-section{
+    text-align: center;
+    font-size: 35px;
+    background-color:#E4E7FF ;
+    padding: 20px;
+    border-radius:20px ;
+    
+    
+
+}
+.productive-group{
+    display: flex;
+    justify-content:space-around ;
+    max-width: 1140px; 
+    width: 1140px; 
+    height: auto;
+    text-align: center;
+  
+    align-items: center;
+    margin-top: 50px; 
+}
+.productive-item{
+    text-align: center;    
+}
+.productive-item h1 {
+    color: #4E47FF;
 }
