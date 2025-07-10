@@ -1,5 +1,7 @@
 body{
     font-family: sans-serif;
+    background-color: #F7F8FC;
+    width: 1140px;
 
 }
 header{
@@ -43,7 +45,21 @@ header{
     text-align: center;
     font-size:25px; 
     margin-top: 200px; 
+}
+.action-section{
+    display: flex;
+    justify-content:space-between ;
+    margin: 100px 50px 20px 50px;  
+    height: 328px; 
+    width: 1140px; 
+    align-items: center;
 
-
-
+}
+.action-image{
+    width: auto;
+    height:200px;
+    border-radius:20px;
+}
+.action-section-text{
+    margin-left:  50px; 
 }
