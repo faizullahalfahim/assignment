@@ -1,0 +1,37 @@
+body{
+    font-family: sans-serif;
+
+}
+header{
+    background-image: url(Hero-bg.png);
+    background-repeat:no-repeat ;
+    background-size: cover;
+    width:1440px;
+    height: 698px ;
+}
+.logo{ 
+    font-size: 16px;
+    color:#4E47FF;
+    font-weight: bolder;  
+   
+
+
+
+}
+.navbar-section{
+    margin: 0  100px 40px 100px;    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.btn-primary{
+    font-size: 16px;
+    background-color:#4E47FF;
+    padding: 10px; 
+    color: white;
+    border-radius:10px ;
+    
+    
+    
+}z
