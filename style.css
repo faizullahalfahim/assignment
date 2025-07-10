@@ -8,9 +8,10 @@ header{
     background-size: cover;
     width:1440px;
     height: 698px ;
+    
 }
 .logo{ 
-    font-size: 16px;
+    font-size: 20px;
     color:#4E47FF;
     font-weight: bolder;  
    
@@ -26,12 +27,23 @@ header{
     justify-content: space-between;
 }
 .btn-primary{
-    font-size: 16px;
+  
+    
     background-color:#4E47FF;
-    padding: 10px; 
+    font-size: 20px;
     color: white;
-    border-radius:10px ;
-    
-    
-    
-}z
+    border-radius: 10px;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.banner-section{
+    text-align: center;
+    font-size:25px; 
+    margin-top: 200px; 
+
+
+
+}
