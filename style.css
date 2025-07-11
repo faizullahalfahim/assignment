@@ -120,3 +120,26 @@ header{
     width: 100%;
     padding: 10px;
  }
+ .footer-section{
+    width: 1440px;
+    height: 428px;
+    background-color: white;
+    text-align: center;  
+    padding: 20px;
+    border-radius:20px ;
+ }
+ .footer-list {
+    list-style: none ;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content:center ;
+    
+ }
+ .footer-logo{
+    color:#4E47FF ;
+    font-size: 60px;
+ }
+ 
+ 
