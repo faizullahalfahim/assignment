@@ -94,3 +94,29 @@ header{
 .productive-item h1 {
     color: #4E47FF;
 }
+.touch-section{
+    width: 1140px;
+    height: 632px;
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+
+}
+.section-title{
+    font-size: 100px;
+}
+   .touch-section form{
+        flex-direction: column;
+        display: flex;
+        gap:20px;
+        font-size:20px;
+        
+    }
+ .touch-section input, 
+ .touch-section textarea{
+    font-size: 16px;
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+ }
