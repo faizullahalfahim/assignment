@@ -42,6 +42,13 @@ header{
     text-decoration: none;
     display: inline-block;
 }
+.btn-primary:hover {
+  background-color: white;
+  color: #4E47FF;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  
+}
 
 .banner-section{
     text-align: center;
@@ -142,4 +149,32 @@ header{
     font-size: 60px;
  }
  
+ .feedback-container{
+    display: flex;
+    gap: 24px;
+    
+    
+ }
+ .text-center{
+    text-align: center;
+ }
+ .feedback{
+    padding: 30px;
+    background-color:aliceblue ;
+    
+ }
+ .feedback-section{
+    margin: 40px 40px  ;
+ }
+ .info-section{
+    display: flex;
+    align-items: center;
+ }
  
+ .info-section img{
+    border-radius:50% ;
+    gap: 20px;
+    width: 60px; 
+    height: 60px; 
+    
+ }
